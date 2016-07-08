@@ -11,7 +11,7 @@
                 <form class="inline-form" action="{% url 'index' %}" method="post">
                     {% csrf_token %}
                     <input type="text" class="form-control clear-focus-highlight" id="txtNewNote"
-                        name="txtNewNote" placeholder="Take a note...">
+                        name="title" placeholder="Take a note...">
                     <input class="btn btn-raised btn-primary btn-sm" type="submit" value="create">
                 </form>
             </div>
